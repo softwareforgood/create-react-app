@@ -350,6 +350,11 @@ module.exports = function(
   const displayedCommand = useYarn ? 'yarn' : 'npm';
 
   console.log();
+  console.log(chalk.red('IMPORTANT!'));
+  console.log(
+    'This project extends CRA with custom options commonly used by SfG.'
+  );
+  console.log();
   console.log(`Success! Created ${appName} at ${appPath}`);
   console.log('Inside that directory, you can run several commands:');
   console.log();
